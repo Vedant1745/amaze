@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Signup - 404 Cafe</title>
+  <style>
+    body {
+      background: #f5f7fa;
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .container {
+      background: white;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      width: 320px;
+      text-align: center;
+    }
+    h2 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+    input {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      outline: none;
+    }
+    button {
+      width: 100%;
+      padding: 12px;
+      background: #4f46e5;
+      border: none;
+      color: white;
+      font-weight: bold;
+      border-radius: 8px;
+      margin-top: 15px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background: #3730a3;
+    }
+    .link-btn {
+      background: transparent;
+      color: #4f46e5;
+      margin-top: 10px;
+      text-decoration: underline;
+      border: none;
+      cursor: pointer;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>Signup</h2>
+    <input type="text" id="signupUsername" placeholder="Username">
+    <input type="email" id="signupEmail" placeholder="Email (Gmail only)">
+    <input type="password" id="signupPassword" placeholder="Password">
+    <button onclick="signup()">Create Account</button>
+
+    <button class="link-btn" onclick="goToLogin()">Already have an account? Login</button>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
