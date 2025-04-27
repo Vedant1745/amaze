@@ -1,4 +1,4 @@
-const backendUrl = "http://localhost:5000";
+const backendUrl = "https://amaze-3.onrender.com";
 
 async function signup() {
   const username = document.getElementById('signupUsername').value;
