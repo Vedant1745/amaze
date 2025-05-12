@@ -37,7 +37,7 @@ async function login() {
   const data = await res.json();
   if (data.success) {
     alert('Login successful! Redirecting...');
-    window.location.href = "https://404-cafe.vercel.app/";  // Redirect after login
+    window.location.href = "";
   } else {
     alert(data.error);
   }
